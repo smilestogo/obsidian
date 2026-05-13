@@ -1,0 +1,29 @@
+﻿# Obsidian 작업공간 캐시 (기기별 충돌 방지)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# 트래시
+.trash/
+
+# OS 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 토큰/시크릿 실수 방지
+*.env
+secrets.md
+# Obsidian 플러그인 바이너리 (용량 큼, 자동 재설치됨)
+.obsidian/plugins/*/bin/
+.obsidian/plugins/*/*.exe
+.obsidian/plugins/*/*.dll
+.obsidian/plugins/*/*.dylib
+.obsidian/plugins/*/*.so
+
+# 일반 대용량 바이너리
+*.exe
+*.dll
+*.zip
+*.tar.gz
+*.7z
